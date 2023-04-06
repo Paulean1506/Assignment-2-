@@ -1,0 +1,20 @@
+# Paulean Marguerette F. Paarrish
+# BSCPE 1-4
+# Problem 2 April 5, 2023
+# The purpose of this program is to decrypt a string that has been encrypted
+
+import pyfiglet
+
+# Header for the activity
+print("Decryption".center(70, "="))
+
+# Request the user to input a string to be decrypted
+encrypted_str = input("\033[95mEnter a string to decrypt: ")
+
+# Replace the encrypted symbol with its vowel equivalent
+decrypted_str  = encrypted_str.replace('*', 'a').replace('&', 'e').replace('#', 'i').replace('+', 'o').replace('!', 'u')
+
+# Print the decrypted message
+des = pyfiglet.figlet_format(decrypted_str, font = "digital")
+print("\033[93mThe decrypted message is:")
+print(des)
