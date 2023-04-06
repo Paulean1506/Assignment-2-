@@ -1,4 +1,4 @@
-# Paulean Marguerette F. Paarrish
+# Paulean Marguerette F. Parrish
 # BSCPE 1-4
 # Problem 3 April 5, 2023
 # The purpose of this program is to generate the ciphertext using the Vigenere Cipher
