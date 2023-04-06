@@ -1,4 +1,4 @@
-# Paulean Marguerette F. Paarrish
+# Paulean Marguerette F. Parrish
 # BSCPE 1-4
 # Problem 2 April 5, 2023
 # The purpose of this program is to decrypt a string that has been encrypted
